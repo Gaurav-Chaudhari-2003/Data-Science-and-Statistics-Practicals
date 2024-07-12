@@ -1,25 +1,35 @@
+# Example 1: Hello World
+print("Hello, World!")
+
+# Example 2: Variables and Data Types
+x = 10         # Integer
+y = 3.14       # Float
+name = "John"  # String
+is_student = True  # Boolean
+
+print(x, y, name, is_student)
+
+# Example 3: Basic Operations
+a = 5
+b = 2
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+
+# Example 4: Conditional Statements
+age = 18
+print("You are an adult.") if age >= 18 else print("You are a minor.")
+
+# Example 5: Loops
+for i in range(5):
+    print("Iteration:", i)
+
+# Example 6: Functions
 def greet(name):
-    return f"Hello, {name}!"
+    return "Hello, " + name
 
-
-def main():
-    # Variables and Data Types
-    name = "Alice"
-    age = 25
-    is_student = True
-
-    # Basic Operations
-    next_year_age = age + 1
-    age_status = "young" if age < 30 else "adult"
-
-    # Function Call
-    greeting = greet(name)
-
-    # Output
-    print(greeting)
-    print(f"Next year, {name} will be {next_year_age} years old and is considered {age_status}.")
-    print(f"Is {name} a student? {'Yes' if is_student else 'No'}")
-
-
-if __name__ == "__main__":
-    main()
+print(greet("Alice"))
