@@ -28,6 +28,7 @@ print("You are an adult.") if age >= 18 else print("You are a minor.")
 for i in range(5):
     print("Iteration:", i)
 
+
 # Example 6: Functions
 def greet(name):
     return "Hello, " + name
